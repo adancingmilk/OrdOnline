@@ -35,5 +35,12 @@ namespace MastercampProjectG139
         {
             Application.Current.Shutdown();
         }
+
+        private void pdfratio(object sender, RoutedEventArgs e)
+        {
+            PDF ratio = new PDF();
+            ratio.GeneratePDF();
+            Application.Current.Shutdown();
+        }
     }
 }
